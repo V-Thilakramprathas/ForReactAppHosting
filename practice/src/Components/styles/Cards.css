@@ -1,0 +1,22 @@
+.card{
+
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2% 2%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    box-shadow: 0 0 10px rgb(127, 127, 96); 
+    color: white;
+    display: inline-block;
+    transition: scale .5s;
+        width:108px;
+    height:128px;
+}
+.card:hover{
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 0 0 5px white,0 0 20px white;
+}

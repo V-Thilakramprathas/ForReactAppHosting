@@ -1,0 +1,36 @@
+.UserInput{
+    width: 30%;
+    margin: 3% auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.308);
+     box-shadow: 0 0 10px rgb(127, 127, 96); 
+    height: 80vh;
+    font-size: 1.5rem;
+    color: white;
+    display: inline-block;
+}
+.UserInput input{
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 2%;
+    border-radius: 5px;
+    width: 80%;
+    border:1px solid rgba(255, 255, 255, 0.434);
+    color: white;
+
+}
+.UserInput button{
+    background-color: rgba(0, 0, 0, 0.386);
+    padding: 5%;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+}
+.UserInput button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
